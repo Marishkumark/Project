@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.title {
+  @apply text-xl text-white font-bold;
+}
+
+.ProductContainer {
+  @apply flex flex-row flex-wrap overflow-y-scroll h-[233px] w-[95%] ml-auto;
+}
+
+.productName {
+  @apply text-center text-sm font-semibold text-white mt-3;
+}
+
+.product {
+  @apply md:w-[25%] w-[50%];
+}
+
+.productImage {
+  @apply rounded-2xl aspect-[5/3.5] md:w-[90%] md:h-[80%] w-[90%] block;
+}

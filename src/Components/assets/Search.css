@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn-search {
+  @apply flex items-center justify-between text-white px-2 text-[0.6rem] md:text-sm;
+}
+
+.btn {
+  @apply border-2 border-white md:w-[20vw] rounded-2xl text-xs mr-2 md:text-sm w-[27vw] md:h-[4vh] bg-slate-50/25;
+}
+
+.btn-items {
+  @apply w-auto;
+}
+
+.btn-container {
+  @apply flex justify-between mt-5;
+}
+
+.icons {
+  @apply text-gray-100 md:text-4xl absolute right-6 items-center text-2xl hidden md:flex;
+}
+
+.icon {
+  @apply text-xs;
+}

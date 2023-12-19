@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.title {
+  @apply text-xl text-white font-bold mt-12;
+}
+
+.productContainer {
+  @apply flex text-center text-sm font-semibold text-white w-[85vw] md:w-[79vw] mx-auto mt-3 justify-center items-center;
+}
+
+.productContainer::-webkit-scrollbar {
+  display: none;
+}
+
+.products {
+  @apply object-contain;
+}
+
+.products > img {
+  @apply rounded-2xl aspect-[5/4] mx-5 md:w-[90%] md:h-[80%] w-[90%];
+}
+
+button.rec-dot {
+  @apply bg-blue-800 active:scale-150 active:bg-blue-800 hover:scale-150 hover:bg-blue-800 focus:bg-blue-800;
+}

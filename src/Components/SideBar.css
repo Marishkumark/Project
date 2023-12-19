@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.sideContainer {
+  @apply flex justify-between max-w-[100vw] md:w-1/6 md:flex-col md:mt-4 mt-2 md:content-between;
+}
+
+.logo {
+  @apply text-white bg-[rgba(1,59,132,255)] p-2 w-24 text-center font-medium text-xl rounded-sm md:w-full  items-center md:mb-1;
+}
+
+.Setting {
+  @apply flex md:text-lg text-sm justify-between md:flex-col  items-center md:items-start md:absolute md:bottom-9 md:font-semibold;
+}
+
+.Menu {
+  @apply flex items-center text-white mx-2;
+}
+
+.ExtraContainer {
+  @apply flex md:hidden;
+}
+
+.S-ExtraContainer {
+  @apply hidden md:block lg:my-3;
+}
+
+.Section {
+  @apply w-1/2 mx-2 my-7 text-center text-white md:w-full md:m-0;
+}
+
+.Section > h1 {
+  @apply text-base font-medium mb-2 md:m-0;
+}
+
+.FavContainer {
+  @apply h-52 bg-[rgba(1,59,132,255)] rounded-md lg:h-52 overflow-y-scroll;
+}
